@@ -1,0 +1,21 @@
+{
+  "name": "codoacododeploy",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Grupo25",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
